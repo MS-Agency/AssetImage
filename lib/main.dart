@@ -1,0 +1,25 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(
+    MaterialApp(
+      debugShowCheckedModeBanner: true,
+      home: Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.black,
+          title: Center(
+              child: Text(
+                'Virgo',
+                style: TextStyle(fontSize: 20.0),
+              )),
+        ),
+        body: Center(
+          child: Image(
+            image: AssetImage('images/virgosign.png'),
+            //Replace with your image path
+          ),
+        ),
+      ),
+    ),
+  );
+}
